@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-struct Orang
+struct detailAlamat
 {
     string desa;
     string kota;
@@ -10,7 +10,7 @@ struct Orang
 struct Orang
 {
     string nama;
-    string alamat;
+    detailAlamat alamat;
     string umur;
 };
 
