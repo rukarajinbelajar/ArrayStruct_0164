@@ -30,5 +30,10 @@ int main(){
     cout << "Data keempat = " << kamu[3] << endl;
     cout << "Data kelima = " << kamu[4] << endl;
 
+    //mengisi dengan menggunakan perulangan for
+    for (int i = 0; i <= 4; i++)
+    {
+        cout
+    }
     
 }
