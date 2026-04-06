@@ -5,11 +5,11 @@ int main(){
     int aku [5] = {10,20,30,40,50}; //deklarasi dengan inisialisasi
     int kamu[5]; //deklarasi tanpa inisialisasi
 
-    cout<<"Data pada Index 1 = "<<aku[1]<<endl; //tampilkan data
+    cout<<"Data pada index 1 = "<<aku[1]<<endl; //tampilkan data
 
     //mengubah array/index
     aku[1] = 200;
-    cout<<"Data pada Index 1 = "<<aku[1]<<endl;
+    cout<<"Data pada index 1 = "<<aku[1]<<endl;
     cout<<"Data Index 1 = "<<aku[1]<<endl;
     cout<<"data index 0 =";
     cin>>kamu[0];
@@ -33,7 +33,16 @@ int main(){
     //mengisi dengan menggunakan perulangan for
     for (int i = 0; i <= 4; i++)
     {
-        cout
+        cout<<"Data index ke- "<<i <<"=";
+        cin>>kamu[i];
+    }
+    cout<<endl;
+
+    //menampilkan dengan menggunakan perulangan for
+    for (int i = 0; i <= 4; i++)
+    {
+        cout<<"Data ke- "<<i+1 <<"=";
+        cin>>kamu{i}
     }
     
 }
