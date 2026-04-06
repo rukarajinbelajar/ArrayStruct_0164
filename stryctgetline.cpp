@@ -19,7 +19,7 @@ int main(){
     cout <<"Nama : ";
     getline(cin, mhs.nama);
     cout <<"Alamat Desa : ";
-    getline(cin mhs.alamat.desa);
+    getline(cin, mhs.alamat.desa);
     cout <<"Alamat Kota : ";
     getline(cin, mhs.alamat.kota);
     cout <<"Umur : ";
