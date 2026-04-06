@@ -7,5 +7,11 @@ int main(){
 
     cout<<"Data pada Index 1 = "<<aku[1]<<endl; //tampilkan data
 
+    //mengubah array/index
     aku[1] = 200;
+    cout<<"Data pada Index 1 = "<<aku[1]<<endl;
+    cout<<"Data Index 1 = "<<aku[1]<<endl;
+    cout<<"data index 0 =";
+    cin>>kamu[0];
+    cout<<"data index 1 =";
 }
